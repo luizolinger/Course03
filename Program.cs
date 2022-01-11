@@ -51,6 +51,8 @@ namespace Course03
                     + " - $ "
                     + list.Payment().ToString("F2", CultureInfo.InvariantCulture));
             }
+
+            Console.WriteLine("--------------------");
         }
     }
 }
